@@ -63,6 +63,14 @@ provider "ctyun" {
 
 详见工程中的[docs](https://github.com/ctyun-it/terraform-provider-ctyun/tree/main/docs)
 
+### 资源与属性全量目录
+
+参见[资源汇总与全属性 TF 模板](docs/resource-catalog/README.md)：以当前源码的实际注册和 Schema 为依据，
+逐资源提供完整属性表、嵌套结构、只读字段、校验约束、源码定位和独立 TF 模板，
+并核对现有 docs/examples 的字段覆盖情况。目录同时提供 CSV/JSON 清单及 Azure 属性对照起始表。
+
+模板是完整输入结构参考，不是已填好合法值的部署样例；互斥参数不能同时赋值，只读字段不能作为输入配置。
+
 
 ## 版权声明
 

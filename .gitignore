@@ -28,6 +28,8 @@ docs/node_modules
 /archive
 docs/vendor
 .codefree
+__pycache__/
+.venv/
 # Test exclusions
 !command/test-fixtures/**/*.tfstate
 !command/test-fixtures/**/.terraform/
